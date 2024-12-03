@@ -26,7 +26,7 @@
 .titleLogo {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  /* align-items: start; */
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@ ul {
 }
 .navbar {
   display: flex;
-  /* align-items: center; */
+  align-items: start;
   justify-content: space-between;
   padding: 25px 150px;
 }
@@ -97,7 +97,7 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 150px 200px;
-  gap: 45px;
+  gap: 50px;
 }
 .aboutTitle {
   font-size: 65px;
@@ -115,7 +115,7 @@ ul {
   flex-wrap: wrap;
 }
 
-.catSec.catSec:nth-child(1)::after{
+.catSec.catSec:nth-child(1)::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -126,7 +126,7 @@ ul {
   background-color: black;
   right: -50px;
 }
-.catSec.catSec:nth-child(2)::after{
+.catSec.catSec:nth-child(2)::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -137,7 +137,7 @@ ul {
   background-color: black;
   right: -50px;
 }
-.catSec.catSec:nth-child(3)::after{
+.catSec.catSec:nth-child(3)::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -153,7 +153,7 @@ ul {
   width: 44px;
   height: 44px;
 }
-.catSec img{
+.catSec img {
   width: 70%;
   height: 50%;
 }
@@ -207,7 +207,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
 }
 .boxes {
   display: flex;
@@ -222,7 +222,6 @@ ul {
   padding-top: 0px;
   padding-bottom: 70px;
   position: relative;
-
   margin-top: 400px;
 }
 
@@ -254,7 +253,7 @@ ul {
 }
 
 .footer {
-  margin-top: 330px;
+  margin-top: 400px;
   gap: 20px;
   display: flex;
   align-items: center;
@@ -309,6 +308,7 @@ ul {
 }
 
 .menu {
+  margin-top: 20px;
   width: 70px;
   height: 70px;
 }
@@ -358,7 +358,7 @@ ul {
     padding: 10px 50px;
   }
   .pages li {
-    /* text-align: center; */
+    text-align: center;
     padding: 10px 50px;
   }
   .title {
@@ -394,6 +394,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
   }
   .box {
     width: 300px;
@@ -504,17 +505,18 @@ ul {
   }
   .box {
     width: 70%;
-    height: 220px;
+    height: 270px;
+    padding: 10px;
   }
   .box img {
     width: 70px;
     height: 50px;
   }
   .boxTitle {
-    font-size: 13px;
+    font-size: 25px;
   }
   .boxLorem {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .videoImg {
@@ -537,7 +539,7 @@ ul {
     font-size: 10px;
   }
   .footer {
-    gap: 0;
+    margin-top: 170px;
   }
   .titleLogoo .title {
     font-size: 15px;
@@ -592,33 +594,29 @@ ul {
     top: 570px;
     left: 0;
   }
-  .miniCats{
-    margin-bottom: 600px;
-  }
-  .catSec:nth-child(2){
+  .catSec:nth-child(2) {
     border: none;
-
   }
-  .catSec:nth-last-child(3):after{
+  .catSec:nth-last-child(3):after {
     display: none;
   }
 
-  .catSec:nth-child(3){
+  .catSec:nth-child(3) {
     border: none;
     margin-top: 80px;
   }
-  .catSec:nth-child(4){
+  .catSec:nth-child(4) {
     margin-top: 80px;
   }
-  .catSec{
+  .catSec {
     width: calc((100% - 30px) / 2);
     padding: 10px 0;
     position: relative;
   }
-  .catSec img{
+  .catSec img {
     width: 40%;
   }
-  .line{
+  .line {
     width: 2px;
     height: 100px;
     background-color: rgb(0, 0, 0);
@@ -626,7 +624,14 @@ ul {
     bottom: -110px;
     left: 50%;
   }
-  .smile{
+  .smile {
     display: none;
+  }
+  .shortVideo {
+    margin-top: 170px;
+  }
+  .footer{
+    margin-top: 170px;
+    padding: 20px;
   }
 }
